@@ -129,6 +129,10 @@ public class ResultActivity extends AppCompatActivity {
                     hand = (int)(Math.random() * 3);
                     }
                 }
+            }else if(winningStreakCount > 1){
+                if(beforeLastComHand != lastComHand){
+                    hand = lastMyHand;
+                }
             }
             return hand;
         }
