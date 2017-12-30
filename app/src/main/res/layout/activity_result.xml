@@ -37,7 +37,7 @@
         app:srcCompat="@drawable/gu" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/com_hand_image"
         android:layout_width="130dp"
         android:layout_height="200dp"
         android:layout_marginBottom="8dp"
